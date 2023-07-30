@@ -1,8 +1,12 @@
 import * as React from "react";
 import useVideos from "../hooks/use-videos";
+import VideoList from "./video-list";
 
-function VideoListContainer() {
-	const { isLoading, videos, error } = useVideos();
+const VideoListContainer = ({ mode, query }) => {
+	const { isLoading, videos, error } = useVideos({
+		mode: mode,
+		query: query,
+	});
 
 	if (isLoading) {
 		return <div>Loading...</div>;
@@ -13,8 +17,10 @@ function VideoListContainer() {
 	}
 
 	return (
-		<RootLayout>
-			<VideoList videos={videos} />
-		</RootLayout>
+		<div className="grid">
+			{"items" in videos ? <VideoList videos={videos} /> : null}
+		</div>
 	);
-}
+};
+
+export default VideoListContainer;

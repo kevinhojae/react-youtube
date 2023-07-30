@@ -1,16 +1,15 @@
 import { useLoaderData } from "react-router-dom";
 import useVideos from "../hooks/use-videos";
-
-function getMostPopularVideos() {}
-
-export async function loader() {
-	return null;
-}
+import { VideoItem } from "../components/video-item";
+import VideoListContainer from "../components/video-list-container";
 
 export default function MostPopularVideos() {
+	const gridColItemNum = 3;
+	const requestNum = import.meta.env.VITE_POPULAR_VIDEOS_REQUEST_NUM;
 	const { isLoading, videos, error } = useVideos({
 		mode: "most-popular",
 		query: "",
+		requestNum: requestNum,
 	});
 
 	if (isLoading) {
@@ -23,25 +22,7 @@ export default function MostPopularVideos() {
 	return (
 		<>
 			<h1>Most Popular Videos</h1>
-			<div>
-				{"items" in videos
-					? videos.items.map((video) => (
-							<div key={video.id}>
-								<iframe
-									width="560"
-									height="315"
-									src={`https://www.youtube.com/embed/${video.id}`}
-									title={video.title}
-									frameborder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowfullscreen
-								></iframe>
-								<h3>{video.title}</h3>
-								<p>{video.description}</p>
-							</div>
-					  ))
-					: null}
-			</div>
+			<VideoListContainer mode="most-popular" query="" />
 		</>
 	);
 }
