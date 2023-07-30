@@ -18,7 +18,7 @@ const VideoListContainer = ({ mode, query }) => {
 
 	return (
 		<div className="grid">
-			{"items" in videos ? <VideoList videos={videos} /> : null}
+			{"items" in videos ? <VideoList videos={videos} mode={mode} /> : null}
 		</div>
 	);
 };

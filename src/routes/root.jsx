@@ -15,8 +15,7 @@ function Root() {
 	return (
 		<>
 			<SearchBar query={query} />
-			{/*if query is undefined, show most-popular-videos else show Outlet*/}
-			{query == null ? <MostPopularVideos /> : <Outlet />}
+			<Outlet />
 		</>
 	);
 }

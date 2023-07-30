@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
@@ -11,6 +11,7 @@ import SearchResultPage, {
 	loader as searchLoader,
 	action as searchAction,
 } from "./routes/search-page";
+import MostPopularVideos from "./routes/most-popular-videos";
 
 const router = createBrowserRouter([
 	{
@@ -19,16 +20,19 @@ const router = createBrowserRouter([
 		loader: rootLoader,
 		// action: rootAction,
 		children: [
-			// {
-			// 	index: true,
-			// 	element: <MostPoplarVideos />,
-			// 	loader: mostPopularVideosLoader,
-			// },
+			{
+				index: true,
+				element: <MostPopularVideos />,
+			},
 			{
 				path: "/search",
 				element: <SearchResultPage />,
 				loader: searchLoader,
 				action: searchAction,
+			},
+			{
+				path: "/video/:id",
+				element: <div>Video</div>,
 			},
 		],
 	},
