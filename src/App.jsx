@@ -11,12 +11,6 @@ import SearchResultPage, {
 	loader as searchLoader,
 	action as searchAction,
 } from "./routes/search-page";
-import MostPoplarVideos, {
-	loader as mostPopularVideosLoader,
-} from "./routes/most-popular-videos";
-
-export const ApiContext = createContext();
-const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
 
 const router = createBrowserRouter([
 	{
@@ -25,11 +19,11 @@ const router = createBrowserRouter([
 		loader: rootLoader,
 		// action: rootAction,
 		children: [
-			{
-				index: true,
-				element: <MostPoplarVideos />,
-				loader: mostPopularVideosLoader,
-			},
+			// {
+			// 	index: true,
+			// 	element: <MostPoplarVideos />,
+			// 	loader: mostPopularVideosLoader,
+			// },
 			{
 				path: "/search",
 				element: <SearchResultPage />,
@@ -43,9 +37,7 @@ const router = createBrowserRouter([
 function App() {
 	return (
 		<>
-			<ApiContext.Provider value={apiKey}>
-				<RouterProvider router={router} />
-			</ApiContext.Provider>
+			<RouterProvider router={router} />
 		</>
 	);
 }

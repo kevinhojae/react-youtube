@@ -1,22 +1,35 @@
-import * as React from "react";
+import React, { useState, useEffect, useContext } from "react";
 
-export default function useVideos() {
-	const [isLoading, setIsLoading] = React.useState(false);
-	const [videos, setVideos] = React.useState([]);
-	const [error, setError] = React.useState(null);
+const buildQuery = ({ mode, query }) => {
+	const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
+	if ((mode = "most-popular")) {
+		return `https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=10&key=${apiKey}`;
+	} else if ((mode = "search")) {
+		return `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=${apiKey}`;
+	}
+};
 
-	React.useEffect(async () => {
-		setIsLoading(true);
+const useVideos = ({ mode, query }) => {
+	const [isLoading, setIsLoading] = useState(false);
+	const [videos, setVideos] = useState([]);
+	const [error, setError] = useState(null);
 
-		try {
-			const response = await fetch("https://youtube.com/api/v3");
-			const result = await response.json();
-			setVideos(result);
-		} catch (error) {
-			setError(error);
-		} finally {
-			setIsLoading(false);
-		}
+	useEffect(() => {
+		console.log("useEffect triggered")
+		const fetchVideos = async () => {
+			setIsLoading(true);
+			try {
+				const response = await fetch(buildQuery({ mode, query }));
+				const result = await response.json();
+				setVideos(result);
+			} catch (error) {
+				setError(error);
+			} finally {
+				setIsLoading(false);
+			}
+		};
+
+		fetchVideos();
 
 		return () => {
 			console.log("cleanup");
@@ -24,4 +37,6 @@ export default function useVideos() {
 	}, []);
 
 	return { isLoading, videos, error };
-}
+};
+
+export default useVideos;
