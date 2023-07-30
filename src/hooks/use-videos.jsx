@@ -22,4 +22,6 @@ export default function useVideos() {
 			console.log("cleanup");
 		};
 	}, []);
+
+	return { isLoading, videos, error };
 }
