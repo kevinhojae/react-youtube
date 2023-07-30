@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 
 const buildQuery = ({ mode, query }) => {
 	const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
-	const requestNum = import.meta.env.VITE_POPULAR_VIDEOS_REQUEST_NUM;
+	const requestNum = import.meta.env.VITE_REQUEST_NUM;
 	if (mode === "most-popular") {
 		return `https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=${requestNum}&key=${apiKey}`;
 	} else if (mode === "search") {
