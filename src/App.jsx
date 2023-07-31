@@ -7,6 +7,7 @@ import SearchResultPage, {
 	action as searchAction,
 } from "./routes/search-result";
 import MostPopularVideos from "./routes/video-popular";
+import VideoDetail from "./routes/video-detail";
 
 const router = createBrowserRouter([
 	{
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/video/:id",
-				element: <div>Video</div>,
+				element: <VideoDetail />,
 			},
 		],
 	},

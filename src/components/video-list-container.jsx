@@ -1,16 +1,16 @@
 import * as React from "react";
-import useVideos from "../hooks/use-videos";
 import VideoList from "./video-list";
+import useVideos from "../hooks/use-videos";
 import useLocalVideos from "../hooks/use-local-videos";
 
 const VideoListContainer = ({ mode, query }) => {
-	// const { isLoading, videos, error } = useVideos({
-	// 	mode: mode,
-	// 	query: query,
-	// });
-	const { isLoading, videos, error } = useLocalVideos({
+	const { isLoading, videos, error } = useVideos({
 		mode: mode,
+		query: query,
 	});
+	// const { isLoading, videos, error } = useLocalVideos({
+	// 	mode: mode,
+	// });
 
 	if (isLoading) {
 		return <div>Loading...</div>;
@@ -23,7 +23,10 @@ const VideoListContainer = ({ mode, query }) => {
 	return (
 		<div className="grid">
 			{"items" in videos ? (
-				<VideoList videos={videos} mode={mode} />
+				<VideoList
+					videos={videos}
+					mode={mode}
+				/>
 			) : null}
 		</div>
 	);

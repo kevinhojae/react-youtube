@@ -7,6 +7,8 @@ const buildQuery = ({ mode, query }) => {
 		return `https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=${requestNum}&key=${apiKey}`;
 	} else if (mode === "search") {
 		return `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&maxResults=${requestNum}&key=${apiKey}`;
+	} else if (mode === "related") {
+		return `https://www.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${query}&type=video&maxResults=${requestNum}&key=${apiKey}`;
 	}
 };
 
