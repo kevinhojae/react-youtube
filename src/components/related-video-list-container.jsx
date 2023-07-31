@@ -1,6 +1,4 @@
 import { useQuery } from "react-query";
-import useLocalVideos from "../hooks/use-local-videos";
-import useVideos from "../hooks/use-videos";
 import VideoList from "./video-list";
 import { getRelatedYoutubeVideos } from "../youtube-api";
 

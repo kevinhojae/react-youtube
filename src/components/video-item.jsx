@@ -1,4 +1,4 @@
-import { Form, redirect, useNavigate, Link } from "react-router-dom";
+import { redirect, Link } from "react-router-dom";
 
 export async function action({ params }) {
 	const searchParams = params;
@@ -23,7 +23,6 @@ const VideoItem = ({ video, videoId }) => {
 			>
 				{video.snippet.title}
 			</Link>
-			{/* <p>{video.snippet.description}</p> */}
 		</div>
 	);
 };

@@ -1,7 +1,5 @@
 import * as React from "react";
 import VideoList from "./video-list";
-import useVideos from "../hooks/use-videos";
-import useLocalVideos from "../hooks/use-local-videos";
 import { useQuery } from "react-query";
 import {
 	getMostPopularYoutubeVideos,
@@ -26,9 +24,7 @@ const VideoListContainer = ({ mode, query }) => {
 
 	return (
 		<div className="grid">
-			{"items" in data ? (
-				<VideoList videos={data} mode={mode} />
-			) : null}
+			{"items" in data ? <VideoList videos={data} mode={mode} /> : null}
 		</div>
 	);
 };

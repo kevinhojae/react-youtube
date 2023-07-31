@@ -1,4 +1,3 @@
-import { useLoaderData } from "react-router-dom";
 import VideoListContainer from "../components/video-list-container";
 
 export default function MostPopularVideos() {

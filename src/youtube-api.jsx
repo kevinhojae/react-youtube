@@ -1,4 +1,3 @@
-import { useQuery } from "react-query";
 import axios from "axios";
 
 const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;

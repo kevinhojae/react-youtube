@@ -1,4 +1,4 @@
-import { redirect, useLoaderData, useSearchParams } from "react-router-dom";
+import { redirect, useSearchParams } from "react-router-dom";
 import VideoListContainer from "../components/video-list-container";
 
 export async function action({ request }) {
