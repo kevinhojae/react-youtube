@@ -1,5 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "react-query";
+
 import "./App.css";
 import Root, { loader as rootLoader } from "./routes/root";
 import SearchResultPage, {
@@ -14,7 +16,6 @@ const router = createBrowserRouter([
 		path: "/",
 		element: <Root />,
 		loader: rootLoader,
-		// action: rootAction,
 		children: [
 			{
 				index: true,
@@ -35,10 +36,19 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+	const queryClient = new QueryClient({
+		defaultOptions: {
+			queries: {
+				refetchOnWindowFocus: false,
+				refetchOnMount: false,
+			},
+		},
+	});
+
 	return (
-		<>
+		<QueryClientProvider client={queryClient}>
 			<RouterProvider router={router} />
-		</>
+		</QueryClientProvider>
 	);
 }
 

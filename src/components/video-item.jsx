@@ -6,15 +6,10 @@ export async function action({ params }) {
 	return redirect(`/video/${obj.get("id")}`);
 }
 
-const VideoItem = ({ mode, video }) => {
-	const videoId = mode === "most-popular" ? video.id : video.id.videoId;
-
+const VideoItem = ({ video, videoId }) => {
 	return (
-		<div key={video.id}>
+		<div key={videoId}>
 			<iframe
-				className={
-					mode === "related" ? "video-item" : "related-video-item"
-				}
 				src={`https://www.youtube.com/embed/${videoId}`}
 				title={video.title}
 				frameborder="0"
