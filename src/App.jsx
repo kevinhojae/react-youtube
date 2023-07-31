@@ -5,8 +5,8 @@ import Root, { loader as rootLoader } from "./routes/root";
 import SearchResultPage, {
 	loader as searchLoader,
 	action as searchAction,
-} from "./routes/search-page";
-import MostPopularVideos from "./routes/most-popular-videos";
+} from "./routes/search-result";
+import MostPopularVideos from "./routes/video-popular";
 
 const router = createBrowserRouter([
 	{
