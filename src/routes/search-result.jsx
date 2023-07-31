@@ -22,7 +22,7 @@ export default function SearchResultPage() {
 	const query = searchParams.get("query");
 	return (
 		<>
-			<h1>Search Results: {query}</h1>
+			<h2>Search Results: {query}</h2>
 			<VideoListContainer mode="search" query={query} />
 		</>
 	);

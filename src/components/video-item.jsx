@@ -12,13 +12,15 @@ const VideoItem = ({ mode, video }) => {
 	return (
 		<div key={video.id}>
 			<iframe
-				className={mode === "related" ? "video-item" : "related-video-item"}
+				className={
+					mode === "related" ? "video-item" : "related-video-item"
+				}
 				src={`https://www.youtube.com/embed/${videoId}`}
 				title={video.title}
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen
-			></iframe>
+			/>
 			<Link
 				to={`/video/${videoId}`}
 				state={{ video: video, videoId: videoId }}

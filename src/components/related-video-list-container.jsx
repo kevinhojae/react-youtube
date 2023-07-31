@@ -1,10 +1,14 @@
+import useLocalVideos from "../hooks/use-local-videos";
 import useVideos from "../hooks/use-videos";
 import VideoList from "./video-list";
 
 const RelatedVideoListContainer = ({ videoId }) => {
-	const { isLoading, videos, error } = useVideos({
+	// const { isLoading, videos, error } = useVideos({
+	// 	mode: "related",
+	// 	query: videoId,
+	// });
+  const { isLoading, videos, error } = useLocalVideos({
 		mode: "related",
-		query: videoId,
 	});
 
 	if (isLoading) {

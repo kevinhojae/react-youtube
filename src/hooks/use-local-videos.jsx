@@ -7,6 +7,8 @@ const buildQuery = ({ mode }) => {
 		return `/most_popular_videos.json`;
 	} else if (mode === "search") {
 		return `/search_result.json`;
+	} else if (mode === "related") {
+		return `/related_videos.json`;
 	}
 };
 

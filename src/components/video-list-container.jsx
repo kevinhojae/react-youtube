@@ -4,13 +4,13 @@ import useVideos from "../hooks/use-videos";
 import useLocalVideos from "../hooks/use-local-videos";
 
 const VideoListContainer = ({ mode, query }) => {
-	const { isLoading, videos, error } = useVideos({
-		mode: mode,
-		query: query,
-	});
-	// const { isLoading, videos, error } = useLocalVideos({
+	// const { isLoading, videos, error } = useVideos({
 	// 	mode: mode,
+	// 	query: query,
 	// });
+	const { isLoading, videos, error } = useLocalVideos({
+		mode: mode,
+	});
 
 	if (isLoading) {
 		return <div>Loading...</div>;

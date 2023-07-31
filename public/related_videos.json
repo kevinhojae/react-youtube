@@ -1,0 +1,353 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "kR0YeoPWT41wN86zRA1oYiXGor8",
+  "nextPageToken": "CAkQAA",
+  "pageInfo": {
+    "totalResults": 159,
+    "resultsPerPage": 9
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7t1g8Z9tTgfTsm2x3XuiPmwv85o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZhI-16XnOBE"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-20T19:37:46Z",
+        "channelId": "UCWTSOOYG0cfkUqsl-UUxVCA",
+        "title": "Colleen Ballinger is Youtube's Biggest Creep",
+        "description": "Keep her away from her audience\n\nSOCIALS:\nhttps://www.tiktok.com/@filmcooper?lang=en\nhttps://www.instagram.com/filmcooper/?hl=en",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZhI-16XnOBE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZhI-16XnOBE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZhI-16XnOBE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZhI-16XnOBE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZhI-16XnOBE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Film Cooper",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-20T19:37:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xVL9EgaHw2j0wcKHVOpKfIu9N8o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5OaSecZbqU4"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-06T20:40:08Z",
+        "channelId": "UCgjoUkfvlqNCRvP7Or_wGPw",
+        "title": "Colleen's apology but every time she lies it speeds up",
+        "description": "bro she needs to apologize for this apology video",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5OaSecZbqU4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5OaSecZbqU4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5OaSecZbqU4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/5OaSecZbqU4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/5OaSecZbqU4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "moopster",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-06T20:40:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ro-MP0yffwfYnuAs3eQ1k7jz22s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A6fSLpXhz4M"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-30T15:56:46Z",
+        "channelId": "UC3_7VimlsihTL9lWKnKXf_A",
+        "title": "moving forward with trisha paytas",
+        "description": "going live soon on my twitch: https://www.twitch.tv/theadammcintyre",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A6fSLpXhz4M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A6fSLpXhz4M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A6fSLpXhz4M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/A6fSLpXhz4M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/A6fSLpXhz4M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Adam McIntyre",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-30T15:56:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q8c-O5SquZn3uvSsVYZolNiKLQQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JND5IkYUWVo"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-15T22:05:20Z",
+        "channelId": "UCUVdcsH5X1a76V1-KnF3heA",
+        "title": "Criminal Defence Lawyer Reacts To \"Toxic Gossip Train\"",
+        "description": "Patreon:  https://www.patreon.com/runkleofthebailey\n\nLocals:  https://runkleofthebailey.locals.com/\n\nBTC address:  bc1qdqzpz6ny6w35qyl2rnasshjm60jvwcjgllwcay\n\nAll comments for information only. Do not take anything as legal advice--if you have a legal issue, contact a lawyer directly so that you can received advice tailored to your situation. All views expressed are solely those of the creator.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JND5IkYUWVo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JND5IkYUWVo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JND5IkYUWVo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JND5IkYUWVo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JND5IkYUWVo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Runkle Of The Bailey",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-15T22:05:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p2lGInmw5WOfQ9_5x1XZvkDG3iA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PnG6chBh9fw"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-01T18:43:22Z",
+        "channelId": "UCZinuM1a1d-Aa7U0cHjAlig",
+        "title": "youtubers reacting to colleen ballinger's \"apology\" for 8 mins straight",
+        "description": "hi y'all! this is not a video i normally would do but when i watched observe's video to her apology, i wanted to make this video lol\nall jokes aside! please listen to the victims-- adam, johnny, becky, etc. and keep supporting them through this stressful and unjust situation.\nEDIT (7/2/23): i fixed the title bc i think it was clear it wasn't an apology but clarified it now lmaooooo\n\npart 2: https://youtu.be/Z4n1vFnQ5S0\n\ncreators ft'd (in no particular order):\nadam: @AdamMcIntyre \njohnny: @g3minij0hn \nobserve: @ObserveYouTube \ndo we know them?: @DoWeKnowThem \nitzkeisha: @Itzkeisha \nhasand: @HasanAbi \ntcobc: @TheCommentsSection \njake doolittle: @JakeDoolittle \nthree zanny: @thirdzanny \nfantano: @fantano \nnattiegold: @nattiegold \nthe sesh: @TheSeshPodcast \nmogul mail: @MogulMail \nnickisnotgreen: @nickisnotgreen @greenisnotnick \npapa gut: @PapaGut\ntdcp: @thedcp \n\nsocials: https://linktr.ee/ejaywithanay",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PnG6chBh9fw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PnG6chBh9fw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PnG6chBh9fw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PnG6chBh9fw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "ejay reyes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-01T18:43:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "31cwoQ_y5GWbvpX9RumepVP6sgQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "969KK_Kj38A"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-28T15:45:10Z",
+        "channelId": "UC3_7VimlsihTL9lWKnKXf_A",
+        "title": "colleen ballinger, stop lying",
+        "description": "this is a video i never, ever thought i would have to make, and my heart breaks making it. my intentions are to tell my side of the story, and disassociate myself, as all i am seeing online is theories about what is happening and what i have (or have not) done.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/969KK_Kj38A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/969KK_Kj38A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/969KK_Kj38A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/969KK_Kj38A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Adam McIntyre",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-28T15:45:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bgt-Rcd8pTZW5DBYFwMsRn4-4ro",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ICtIZuR1BW4"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-28T21:29:02Z",
+        "channelId": "UC3_7VimlsihTL9lWKnKXf_A",
+        "title": "colleen ballinger responded...",
+        "description": "as much as colleen discredited & made fun of me, im glad her video did ONE thing, show you all EXACTLY the type of evil woman she is, that a lot of us have experienced over the past few years behind the scenes, the mask has slipped…everyone meet the REAL colleen ballinger.\n\ngoing live soon on my twitch: https://www.twitch.tv/theadammcintyre\n\n\n\n\n#colleenballinger",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ICtIZuR1BW4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ICtIZuR1BW4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ICtIZuR1BW4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ICtIZuR1BW4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ICtIZuR1BW4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Adam McIntyre",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-28T21:29:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4plPw632r5zg3gyu8kC5b7ExZI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xO-Rh_kMakI"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-30T17:52:10Z",
+        "channelId": "UCEQiEyMO9ci0Y-KwLOF4ysQ",
+        "title": "These Girls found out they have the SAME BOYFRIEND through TikTok 🤦",
+        "description": "GET YOUR MERCH:  https://rebal-d.myshopify.com 😍\nToday we take a look at the story of Ericka and Autumn, two girls that decided to have a go at each other because the latter found out her boyfriend was cheating on her with the former through TikTok.\r\nSUBSCRIBE IF YOU'RE A LLAMA RIDER: http://bit.ly/2bSdjlw\r\nDON'T MISS THESE VIDEOS: https://bit.ly/2NbtJ6c\r\n\r\n\r\n                       ~~~~~~~~Talk to me on~~~~~~~~\r\n\r\nInstagram: https://www.instagram.com/rebal_official/\r\n                                         (@Rebal_Official)\r\n\r\nTwitter: https://twitter.com/Rebal_Da\r\n                                            (@Rebal_Da)\r\n\r\nYouNow: https://www.younow.com/RebalD\r\n                                               (@RebalD)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xO-Rh_kMakI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xO-Rh_kMakI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xO-Rh_kMakI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xO-Rh_kMakI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xO-Rh_kMakI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Rebal D",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-30T17:52:10Z"
+      }
+    }
+  ]
+}
