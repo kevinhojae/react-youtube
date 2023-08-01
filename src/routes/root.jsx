@@ -5,6 +5,7 @@ import SearchBar from "../components/searchbar";
 export async function loader({ request }) {
 	const url = new URL(request.url);
 	const query = url.searchParams.get("query");
+	
 	return { query };
 }
 
